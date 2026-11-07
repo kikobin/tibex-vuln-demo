@@ -1,0 +1,7 @@
+services:
+  api:
+    build: ./api
+    ports: ['127.0.0.1:3000:3000']
+  reports:
+    build: ./reports
+    ports: ['127.0.0.1:5000:5000']
